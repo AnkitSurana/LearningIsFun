@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffdcfff4"
+    tools:context="com.example.ankitsurana.learningisfun.About"
+    android:touchscreenBlocksFocus="false">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_primary"
+        android:title="@string/title_activity_about"
+        app:theme="@style/GalaxyZooThemeToolbarDarkOverflow"
+        app:popupTheme="@style/Theme.AppCompat.NoActionBar" />
+
+    <ImageView
+        android:id="@+id/test_image"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_text"
+        android:layout_below="@id/test_image"
+        android:textAlignment="center"
+        android:layout_centerVertical="true"
+        android:fontFamily="Times New Roman"
+        android:textColor="@color/accent_material_dark"></TextView>
+
+</RelativeLayout>

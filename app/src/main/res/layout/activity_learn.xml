@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffdcfff4"
+    android:orientation="vertical">
+
+
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_primary"
+        android:title="@string/app_name"
+        app:theme="@style/GalaxyZooThemeToolbarDarkOverflow"
+        app:popupTheme="@style/Theme.AppCompat.NoActionBar" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffdcfff4" >
+
+        <Button
+            android:layout_width="198dp"
+            android:layout_height="259dp"
+            android:id="@+id/alphabets"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:background="@mipmap/a"/>
+
+        <Button
+            android:layout_width="198dp"
+            android:layout_height="259dp"
+            android:id="@+id/numbers"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:background="@mipmap/abc"/>
+
+        <Button
+            android:layout_width="198dp"
+            android:layout_height="259dp"
+            android:id="@+id/animals"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:background="@mipmap/wild"/>
+
+        <Button
+            android:layout_width="198dp"
+            android:layout_height="259dp"
+            android:id="@+id/fruits"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:background="@mipmap/ox"/>
+    </GridLayout>
+</LinearLayout>

@@ -1,0 +1,161 @@
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffdcfff4"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_primary"
+        android:title="@string/app_name"
+        app:theme="@style/GalaxyZooThemeToolbarDarkOverflow"
+        app:popupTheme="@style/Theme.AppCompat.NoActionBar" />
+
+    <TableLayout
+        android:id="@+id/tlGrid"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btnGrid11"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="7dip"
+                android:text=""
+                android:textColor="#242424"
+                android:textSize="35dip"
+                android:textStyle="bold"
+                android:background="@drawable/button_toe"/>
+
+            <Button
+                android:id="@+id/btnGrid12"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="7dip"
+                android:text=""
+                android:textColor="#242424"
+                android:textSize="35dip"
+                android:textStyle="bold"
+                android:background="@drawable/button_toe"/>
+
+            <Button
+                android:id="@+id/btnGrid13"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="7dip"
+                android:text=""
+                android:textColor="#242424"
+                android:textSize="35dip"
+                android:textStyle="bold"
+                android:background="@drawable/button_toe"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btnGrid21"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="7dip"
+                android:text=""
+                android:textColor="#242424"
+                android:textSize="35dip"
+                android:textStyle="bold"
+                android:background="@drawable/button_toe"/>
+
+            <Button
+                android:id="@+id/btnGrid22"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="7dip"
+                android:text=""
+                android:textColor="#242424"
+                android:textSize="35dip"
+                android:textStyle="bold"
+                android:background="@drawable/button_toe"/>
+
+            <Button
+                android:id="@+id/btnGrid23"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="7dip"
+                android:text=""
+                android:textColor="#242424"
+                android:textSize="35dip"
+                android:textStyle="bold"
+                android:background="@drawable/button_toe"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btnGrid31"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="7dip"
+                android:text=""
+                android:textColor="#242424"
+                android:textSize="35dip"
+                android:textStyle="bold"
+                android:background="@drawable/button_toe"/>
+
+            <Button
+                android:id="@+id/btnGrid32"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="7dip"
+                android:text=""
+                android:textColor="#242424"
+                android:textSize="35dip"
+                android:textStyle="bold"
+                android:background="@drawable/button_toe"/>
+
+            <Button
+                android:id="@+id/btnGrid33"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="7dip"
+                android:text=""
+                android:textColor="#242424"
+                android:textSize="35dip"
+                android:textStyle="bold"
+                android:background="@drawable/button_toe"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btnReset"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_span="3"
+                android:padding="7dip"
+                android:text=""
+                android:textColor="#242424"
+                android:textSize="20dip"
+                android:textStyle="bold"
+                android:background="@color/color_accent"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,268 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ankitsurana.learningisfun.alphabet"
+    android:background="#ffdcfff4"
+    >
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_primary"
+        android:title="@string/app_name"
+        app:theme="@style/GalaxyZooThemeToolbarDarkOverflow"
+        app:popupTheme="@style/Theme.AppCompat.NoActionBar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="57dp">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" >
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:id="@+id/a"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:background="@mipmap/a1"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:id="@+id/b"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:background="@mipmap/b"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:id="@+id/c"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:background="@mipmap/c"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:id="@+id/d"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:background="@mipmap/d"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:id="@+id/e"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:background="@mipmap/e"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:id="@+id/f"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:background="@mipmap/f"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:id="@+id/g"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:background="@mipmap/g"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:id="@+id/h"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:background="@mipmap/h"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:id="@+id/i"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:background="@mipmap/i"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:id="@+id/j"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:background="@mipmap/j"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:id="@+id/k"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:background="@mipmap/k"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:id="@+id/l"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:background="@mipmap/l"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:id="@+id/m"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:background="@mipmap/m"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:id="@+id/n"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:background="@mipmap/n"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:id="@+id/o"
+            android:layout_row="4"
+            android:layout_column="2"
+            android:background="@mipmap/o"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:id="@+id/p"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:background="@mipmap/p"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:id="@+id/q"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:background="@mipmap/q"
+            />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:id="@+id/r"
+            android:layout_row="5"
+            android:layout_column="2"
+            android:background="@mipmap/r"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:id="@+id/s"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:background="@mipmap/s"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:id="@+id/t"
+            android:layout_row="6"
+            android:layout_column="1"
+            android:background="@mipmap/t"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:id="@+id/u"
+            android:layout_row="6"
+            android:layout_column="2"
+            android:background="@mipmap/u"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:id="@+id/v"
+            android:layout_row="7"
+            android:layout_column="0"
+            android:background="@mipmap/v"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:id="@+id/w"
+            android:layout_row="7"
+            android:layout_column="1"
+            android:background="@mipmap/w"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:id="@+id/x"
+            android:layout_row="7"
+            android:layout_column="2"
+            android:background="@mipmap/x"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:id="@+id/y"
+            android:layout_row="8"
+            android:layout_column="0"
+            android:background="@mipmap/y"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:id="@+id/z"
+            android:layout_row="8"
+            android:layout_column="2"
+            android:background="@mipmap/z"/>
+
+    </GridLayout>
+    </ScrollView>
+</RelativeLayout>
